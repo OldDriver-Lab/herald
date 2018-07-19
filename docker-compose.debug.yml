@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  herald:
+    image: herald
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+        - 6060:6060

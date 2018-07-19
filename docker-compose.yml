@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  herald:
+    image: herald
+    build: .
+    ports:
+      - 6060:6060
